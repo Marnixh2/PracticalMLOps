@@ -1,7 +1,7 @@
-
 name: PracticalMLOpsCI
 on: [push]
-build:
+jobs:
+  Build:
   runs-on: ubuntu-latest
   steps:
   - uses: actions/checkout@v2
